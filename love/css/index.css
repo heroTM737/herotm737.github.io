@@ -1,0 +1,6 @@
+body{
+    background-color: #000000;
+    background-image:    url(../image/moc_chau_th_1920.jpg);
+    background-size:     cover;                    /* <------ */
+    background-repeat:   no-repeat;
+}
