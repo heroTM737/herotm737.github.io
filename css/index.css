@@ -1,4 +1,6 @@
 body{
-    background: #000000;
-    background-image: url(../image/neural.jpg);
+    background-color: #000000;
+    background-image:    url(../image/moc_chau_th.jpg);
+    background-size:     cover;                    /* <------ */
+    background-repeat:   no-repeat;
 }
