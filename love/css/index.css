@@ -1,9 +1,21 @@
+@import url(//fonts.googleapis.com/css?family=Dosis);
+
 body {
     background-color: #000000;
+    background-image: url(../image/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .hml {
-    font-family: cursive;
+    font-family: 'Dosis', sans-serif;
     color: white;
+    position: fixed;
+    top: 100px;
+    right: 160px;
+    font-size: 90px;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 #TH_image{
