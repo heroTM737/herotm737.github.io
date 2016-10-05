@@ -7,12 +7,18 @@ body {
 }
 
 .content_wrapper {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .year_marker {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.year_marker .year_marker_span {
     background: burlywood;
+    border-radius: 3px;
+    padding: 5px 10px;
 }
 
 .time_block {
