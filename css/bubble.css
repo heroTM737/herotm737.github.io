@@ -1,0 +1,12 @@
+.bubble {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+.avatar {
+    background-image: url(../image/chicken.png);
+    background-size: cover;
+}
