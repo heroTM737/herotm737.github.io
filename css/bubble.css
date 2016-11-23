@@ -3,6 +3,16 @@ body {
     background-size: 100vw;
 }
 
+.bgrefer a {
+    font-family: cursive;
+    color: white;
+    opacity: 0.5;
+}
+
+.bgrefer:hover a {
+    color: blue;
+}
+
 .bubble {
     width: 60px;
     height: 60px;
