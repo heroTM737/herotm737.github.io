@@ -1,12 +1,28 @@
+body {
+    background-image: url(../image/1080.jpg);
+    background-size: 100vw;
+}
+
 .bubble {
     width: 60px;
     height: 60px;
     border-radius: 100%;
     background-color: white;
     position: fixed;
+    line-height: 60px;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .avatar {
     background-image: url(../image/chicken.png);
-    background-size: cover;
+}
+
+.library {
+    background-image: url(../image/library.png);
+}
+
+.simpleweb {
+    background-image: url(../image/simple.png);
 }
