@@ -3,14 +3,36 @@ body {
     background-size: 100vw;
 }
 
+.bgrefer {
+    width: fit-content;
+}
+
 .bgrefer a {
     font-family: cursive;
     color: white;
     opacity: 0.5;
+    text-decoration: none;
 }
 
 .bgrefer:hover a {
-    color: blue;
+    color: red;
+}
+
+.bgrefer a i.fa-heart{
+    display: inline-block;
+}
+
+.bgrefer a i.fa-heartbeat{
+    display: none;
+    color: red;
+}
+
+.bgrefer:hover a i.fa-heart{
+    display: none;
+}
+
+.bgrefer:hover a i.fa-heartbeat{
+    display: inline-block;
 }
 
 .bubble {
